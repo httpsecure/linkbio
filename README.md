@@ -1,6 +1,3 @@
 # Hugo for social media link 
 
-![image]()
-
-
-<img src="https://raw.githubusercontent.com/httpsecure/linkbio/main/static/svg/cat.png" width=50% height=50%>
+<img src="https://raw.githubusercontent.com/httpsecure/linkbio/main/static/svg/cat.png" width=30% height=30%>
