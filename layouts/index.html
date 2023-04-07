@@ -1,0 +1,12 @@
+{{ define "main" }}
+<div class="pages">
+  {{  range (where .Site.Pages "Type" "bio" ) }}
+  <div class="link-bio">
+    <img src="{{ .Params.svg | safeURL }}" width="30" height="30" alt="logo" class="svg">
+    <h2 class="title">
+    <a href="{{ .Params.link | safeURL }}">{{ .Title | htmlEscape }}</a>
+    </h2>
+  </div>
+  {{ end }}
+</div>
+{{ end }}
