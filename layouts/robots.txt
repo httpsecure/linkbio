@@ -1,4 +1,9 @@
+#block all link
+
 User-agent: *
 {{ range .Pages }}
 Disallow: {{ .Permalink }}
+{{ end }}
+{{ range .Pages }}
+Disallow: {{ .RelPermalink }}
 {{ end }}
